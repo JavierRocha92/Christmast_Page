@@ -19,6 +19,11 @@
 .nav__link{
     text-decoration: none;
     color: gray;
+    transition: transform 0.5s;
+}
+.nav__link:hover{
+    color: red;
+    transform: scale(2);
 }
 .nav__link--red{
     color: red;

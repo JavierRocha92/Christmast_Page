@@ -31,6 +31,12 @@
     .article__image{
         display: block;
         width: 100%;
+        filter: grayscale(100%);
+        transition: all 0.5s linear;
+    }
+    .article__image:hover{
+        transform: scale(1.02);
+        filter: grayscale(0%);
     }
 }
 @media screen and (min-width:600px) {
@@ -143,6 +149,12 @@
     .card__image{
         width: 100%;
         box-shadow: 1px 10px 10px gray;
+        filter: grayscale(100%);
+        transition: all 0.5s linear;
+    }
+    .card__image:hover{
+        transform: scale(1.02);
+        filter: grayscale(0%);
     }
     
 }
@@ -172,13 +184,18 @@
         display: flex;
         flex-direction: column;
     }
+
     .nav__item{
         margin-bottom: 5px;
         width: 70%;
-        background-color: #ffffff60;
         padding: 5px;
         padding-bottom: 1px;
         font-size: 1.2em;
+        border-bottom: 2px solid gray;
+        transition: transform 0.2s;
+    }
+    .nav__item:hover{
+        transform: translate(10px);
     }
     .superior__img{
         display: none;

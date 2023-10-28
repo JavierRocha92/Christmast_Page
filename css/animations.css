@@ -1,0 +1,169 @@
+.getInRight{
+    animation-name: getInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes getInRight {
+    0%{
+        opacity: 0;
+        transform: translate(-1000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+.getDown{
+    animation-name: getDown;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes getDown {
+    0%{
+        transform: translateY(-400px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
+.getOutLeft{
+    animation-name: getOutLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes getOutLeft {
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1000px);
+    }
+}
+.getUp{
+    animation-name: getUp;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes getUp {
+    0%{
+        transform: translateY(0px)
+    }
+    100%{
+        transform: translateY(-400px)
+    }
+}
+.favorites__textup{
+    animation-name: textUp;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes textUp {
+    0%{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    80%{
+        opacity: 0,2;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-140px)
+    }
+}
+.favorites__textdown{
+    animation-name: textdown;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes textdown {
+    0%{
+        opacity: 1;
+        transform: translateY(-140px);
+    }
+    20%{
+        opacity: 0,2;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+.vibration{
+    animation-name: vibration;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes vibration {
+    0%{
+        right: 15px;
+    }
+    5%{
+        right:5px;
+    }
+    10%{
+        right: 15px;
+    }
+    15%{
+        right:5px;
+    }
+    20%{
+        right: 15px;
+    }
+    25%{
+        right:5px;
+    }
+    30%{
+        right: 15px;
+    }
+    35%{
+        right:5px;
+    }
+    40%{
+        right: 15px;
+    }
+    45%{
+        right:5px;
+    }
+    50%{
+        right: 15px;
+    }
+    55%{
+        right:5px;
+    }
+    60%{
+        right: 15px;
+    }
+    65%{
+        right:5px;
+    }
+    70%{
+        right: 15px;
+    }
+    75%{
+        right:5px;
+    }
+    80%{
+        right: 15px;
+    }
+    85%{
+        right:5px;
+    }
+    90%{
+        right: 15px;
+    }
+    95%{
+        right:5px;
+    }
+    100%{
+        right: 15px;
+    }
+    
+}
