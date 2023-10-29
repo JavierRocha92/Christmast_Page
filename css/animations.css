@@ -7,11 +7,11 @@
 @keyframes getInRight {
     0%{
         opacity: 0;
-        transform: translate(-1000px);
+        left: -2000px;
     }
     100%{
         opacity: 1;
-        transform: translate(0px);
+        left: 0;
     }
 }
 .getDown{
@@ -22,10 +22,10 @@
 }
 @keyframes getDown {
     0%{
-        transform: translateY(-400px)
+       top: -250px;
     }
     100%{
-        transform: translateY(0px)
+        top: 50px;
     }
 }
 .getOutLeft{
@@ -36,10 +36,10 @@
 }
 @keyframes getOutLeft {
     0%{
-        transform: translate(0px);
+        left: 0;
     }
     100%{
-        transform: translate(-1000px);
+        left: -2000px;
     }
 }
 .getUp{
@@ -50,10 +50,10 @@
 }
 @keyframes getUp {
     0%{
-        transform: translateY(0px)
+        top: 50px;
     }
     100%{
-        transform: translateY(-400px)
+        top: -250px;
     }
 }
 .favorites__textup{
@@ -103,67 +103,67 @@
 
 @keyframes vibration {
     0%{
-        right: 15px;
+        right: 25px;
     }
     5%{
-        right:5px;
+        right:35px;
     }
     10%{
-        right: 15px;
+        right: 25px;
     }
     15%{
-        right:5px;
+        right:35px;
     }
     20%{
-        right: 15px;
+        right: 25px;
     }
     25%{
-        right:5px;
+        right:35px;
     }
     30%{
-        right: 15px;
+        right: 25px;
     }
     35%{
-        right:5px;
+        right:35px;
     }
     40%{
-        right: 15px;
+        right: 25px;
     }
     45%{
-        right:5px;
+        right:35px;
     }
     50%{
-        right: 15px;
+        right: 25px;
     }
     55%{
-        right:5px;
+        right:35px;
     }
     60%{
-        right: 15px;
+        right: 25px;
     }
     65%{
-        right:5px;
+        right:35px;
     }
     70%{
-        right: 15px;
+        right: 25px;
     }
     75%{
-        right:5px;
+        right:35px;
     }
     80%{
-        right: 15px;
+        right: 25px;
     }
     85%{
-        right:5px;
+        right:35px;
     }
     90%{
-        right: 15px;
+        right: 25px;
     }
     95%{
-        right:5px;
+        right:35px;
     }
     100%{
-        right: 15px;
+        right: 25px;
     }
     
 }
